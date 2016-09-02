@@ -192,7 +192,8 @@ var GADebuggerAPI = (function() {
             'Account': beacon.account,
             'Client ID': beacon.clientId,
             'Visitor ID': beacon.visitorId,
-            'Session ID': beacon.sessionId
+            'Session ID': beacon.sessionId,
+            'GTM Container': beacon.gtmContainer
         });
 
         setProperties(elements.clientProps, {

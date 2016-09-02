@@ -415,7 +415,8 @@ let BeaconPropertiesView = {
             trackerAccount: beacon.account,
             clientId: beacon.clientId,
             visitorId: beacon.visitorId,
-            sessionId: beacon.sessionId
+            sessionId: beacon.sessionId,
+            gtmContainer: beacon.gtmContainer
         });
 
         this.setProperties(this.clientProps, {

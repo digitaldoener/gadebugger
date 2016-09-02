@@ -32,6 +32,11 @@ var UaBeacon = (function() {
                 return this.params.t;
             }
         },
+        gtmContainer: {
+            get: function() {
+                return this.params.gtm;
+            }
+        },
         documentUrl: {
             get: function() {
                 return this.params.dl;
